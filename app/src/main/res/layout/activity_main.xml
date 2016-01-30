@@ -9,10 +9,13 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="kr.mindwing.appcompattest.MainActivity">
 
+    <!--
+    android:text="compileSdkVersion 23을 적용하고서\nAppCompatActivity 를 상속하고,\nDarkActionBar 테마를 선택하면,\nActionBar 를 볼 수 있습니다.\n\n또한, ActionBar 와 Notification 영역의 색깔도\n지정할 수 있습니다. " />
+    android:text="compileSdkVersion 14 부터 21 버전까지는 AppCompatActivity 를 쓸 수가 없어서,\n내장된 ActionBar 를 쓰도록 Theme 를 android:Theme.Holo.Light.DarkActionBar 로 맞춰야 합니다." />
+    -->
+
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center"
-        android:textSize="20sp"
-        android:text="Target SDK 22 이상에서\nAppCompatActivity 를 써봅시다."/>
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="compileSdkVersion 23을 적용하고서\nAppCompatActivity 를 상속하고,\nDarkActionBar 테마를 선택하면,\nActionBar 를 볼 수 있습니다.\n\n또한, ActionBar 와 Notification 영역의 색깔도\n지정할 수 있습니다. " />
 </RelativeLayout>
